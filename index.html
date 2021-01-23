@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TNH7YLQEL1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TNH7YLQEL1');
+  </script>
+
+  <!-- yo it's mihai my guy what in the world are you doing reading this rn go scroll down the website -->
+  <!-- rip juice rip x rip pop smoke rip speaker knockerz rip nipsey rip houdini edit nov 6: rip von :/-->
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="I KNOW YOU'RE READING THIS SO JUST CLICK THE WEBSITE ON GOSH">
+  <title>Frick Gang Race</title>
+
+  <!--  Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900,bold,black|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap and CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/race.css">
+  <link rel="shortcut icon" type="image/jpg" href="zzz.jpg">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/392f17ae59.js" crossorigin="anonymous"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navbar section -->
+  <!-- yo it's mihai my guy what in the world are you doing reading this rn go scroll down the website -->
+
+
+<!-- <div class="vl"></div> -->
+<!-- <div class="blackdiv"></div>  -->
+<div class="powderbluediv"></div>
+
+
+  <section class="blue-section" id="title">
+
+    <div class="container-fluid title-cfluid">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar1 fixed-top navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="">Frick Gang</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" data-toggle="collapse" data-target=".navbar-collapse" id="navbarTogglerDemo02">
+        <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> -->
+
+          <ul id="top-menu" class="navbar-nav ml-auto">
+            <li class="nav-item active home-li">
+              <a class="nav-link scroll" href="#title" data-tab-index="1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#info2" data-tab-index="2">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#participants2" data-tab-index="3">Participants</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#location" data-tab-index="4">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link contact-a scroll" href="#footer2" data-tab-index="5">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- The title section w/ music -->
+
+
+
+
+      <script src="scripts/play-audio.js"></script>
+      <div id="button-container" class="hide">
+        <div id="button" title=""></div>
+      </div>
+      <audio id="player" controls preload>
+        <source src="shottaflow.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        (function(d) {
+          'use strict';
+
+          var test = true,
+            but = d.querySelector('#button'),
+            aud = d.querySelector('#player');
+          aud.classList.add('remove');
+          d.querySelector('#button-container').classList.remove('hide');
+
+          but.addEventListener('click',
+            function() {
+              if (test === true) {
+                but.classList.add('pause');
+                test = false;
+                aud.play();
+              } else {
+                changeSVG();
+                aud.pause();
+              }
+            }, false);
+
+          aud.addEventListener('ended',
+            function() {
+              changeSVG();
+              aud.load();
+            }, false);
+
+          function changeSVG() {
+            but.classList.remove('pause');
+            test = true;
+          }
+        }(document));
+      </script>
+
+
+
+
+
+
+
+
+      <!-- Actual Title section -->
+      <img class="frick" src="fricktest.jpg">
+      <div class="row blue-row">
+
+        <div class="col-lg-4 col-md-6 order-md-12 video vid1">
+          <video width="370px" height="720" controls playsinline autopla.y muted loop id="myVid">
+            <source src="race2.mp4" type="video/mp4">
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 order-md-1 title-section">
+          <div class="cloud cloud1fr">
+            <i class="fas cloud1 fa-5x fa-flip-horizontal fa-cloud"></i>
+          </div>
+
+          <div class="div-h1">
+            <h1 class="title-h1">The Official Frick Gang Race!</h1>
+          </div>
+          <br>
+
+          <div class="cloud cloud23">
+            <i class="fas cloud2 fa-5x fa-cloud"></i>
+            <i class="fas cloud3 fa-5x fa-cloud"></i>
+          </div>
+
+
+          <p class="titlep">sponsored by <a class="android" href="https://www.apple.com/ca/" target="_blank">Android</a>!
+            <!-- _____ ______ -->
+          </p>
+          <!-- <a href="mailto:geniusbar123@icloud.com?subject=Frick Gang Race&body=Your Name:%20%0D%0AYour Email:"><button type="button" class="btn btn-lg btn-light register-btn">Register today!</button></a> -->
+          <a class="registerbtn" href="mailto:geniusbar123@icloud.com?subject=Frick Gang Race&body=Your Name:%20%0D%0AYour Email:">
+            <!-- <span class="spantest"></span>
+  <span class="spantest"></span>
+  <span class="spantest"></span>
+  <span class="spantest"></span> -->
+            Register Today!</a>
+
+
+        </div>
+
+
+        <div class="col-lg-4 col-md- video vid2">
+          <video width="400px" height="720" controls playsinline autopla.y muted loop id="myVid2">
+            <source src="race1.mp4" type="video/mp4">
+        </div>
+
+      </div>
+      <div class="title-arrow-div testingarrow navbar1"><a href="#info2"><i class="fas title-arrow fa-3x fa-chevron-down"></i></a>
+        <a href="#info2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="title-arrow title-arrow-svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /> </svg></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- <i class="fas title-arrow fa-3x fa-chevron-down"></i> -->
+
+  <!-- 2nd section -->
+
+  <div id="info2" tabindex="-1">
+
+  </div>
+
+  <section class="white-section running-img" id="info">
+
+
+    <div class="row white-div">
+
+      <div class="col-lg-3 offset-lg-2 col1 white-col">
+        <!-- <i class="fas fa-4x white-i fa-clock"></i> <br> -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="white-i white-i-svg">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" /></svg>
+        <h3 class="white-h3">Date and Time</h3>
+        <p class="white-p">The Frick Gang Race will take place on February 30th at 3pm!</p>
+      </div>
+
+
+      <div class="col-lg-3 offset-lg-2 white-col col2">
+        <i class="fas fa-4x white-i fa-award"></i>
+        <h3 class="white-h3">The Grand Prize</h3>
+        <p class="white-p">The winner of the Frick Gang Race will win <del>David's</del> Montana's heart!</p>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- carousel section -->
+
+  <div id="participants2" tabindex="-1">
+
+  </div>
+
+  <section class="blue-section" id="participants">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active carousel-bottom"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>"Frick frick frick there's no way I'm gonna lose, I'm a 6'4" man at the age of 15 and a half. I also love Montana 😍"</h2>
+        <a class="ytpic" href="https://www.youtube.com/user/DrakeOfficial" target="_blank"> <img class="carousel-img" src="david.jpg" alt="david"> </a>
+          <em class="nameem">David, All Saints</em>
+        </div>
+        <div class="carousel-item">
+          <h2>"Yo it's me, Mario Jacob MacDonald Campbell and I suck Julia too often but that's okay cause I'm gonna beat Carlos!"</h2>
+        <a class="ytpic" href="https://www.youtube.com/channel/UClW4jraMKz6Qj69lJf-tODA" target="_blank">  <img class="carousel-img" src="mario.jpg" alt="mario"> </a>
+          <em class="nameem">Mario, All Saints</em>
+        </div>
+        <div class="carousel-item kaelen2">
+          <h2>"Fuck a beat, I was tryna beat a case, but I ain't beat that case, bitch I did the race - Comethazine"</h2>
+        <a class="ytpic" href="https://www.youtube.com/channel/UCmEZts66nKPymVHQv5ZSoBA" target="_blank">  <img class="carousel-img" src="kaelen.jpg" alt="kaelen"> </a>
+          <em class="nameem">Kaelen, Sacred Heart</em>
+        </div>
+        <div class="carousel-item carlos2">
+          <h2>"Bruh even though i'm 4'11" imma fuck Mario in the ass at the race again"</h2>
+        <a class="ytpic" href="https://www.youtube.com/channel/UCVS88tG_NYgxF6Udnx2815Q" target="_blank">  <img class="carousel-img carlos" src="carlos2.jpg" alt="carlos"> </a>
+          <em class="nameem">Carlos, All Saints</em>
+        </div>
+        <div class="carousel-item morgan2">
+          <h2>"Carlos Gago simps for my fat ass"</h2>
+        <a class="ytpic" href="https://www.youtube.com/user/kanyewest" target="_blank">  <img class="carousel-img" src="morgan.jpg" alt="morgan"> </a>
+          <em class="nameem">Morgan, Sacred Heart</em>
+        </div>
+        <div class="carousel-item donelij">
+          <h2>"😐"</h2>
+        <a class="ytpic" href="https://www.instagram.com/donelijj/" target="_blank">  <img class="carousel-img" src="donelij.jpg" alt="donelij"> </a>
+          <em class="nameem">Chris, Donelij</em>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> hidden cause its the button fam-->
+        <i class="fas arrow fa-3x fa-running fa-rotate-180 fa-flip-horizontal"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <i class="fas arrow fa-3x fa-running"></i>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+
+  <section class="blue-section press" id="press">
+
+    <a href="https://elisabeth-bruyere.ecolecatholique.ca/" target="_blank">
+      <img class="school-logo eb" src="eb.png" alt="elisabeth-bruyere"></a>
+    <a href="http://ash.ocsb.ca/" target="_blank">
+      <img class="school-logo ash" src="ash.png" alt="all-saints"></a>
+    <a href="https://paul-desmarais.ecolecatholique.ca/" target="_blank">
+      <img class="school-logo pauld" src="pauld.png" alt="paul-d"></a>
+    <a href="http://shh.ocsb.ca/" target="_blank">
+      <img class="school-logo shhs" src="shhs3.png" alt="sacred-heart"></a>
+    <a class="schooooool" href="https://paul-desmarais.ecolecatholique.ca/" target="_blank">
+      <img class="school-logo pauld2" src="pauld2.png" alt="paul-d"></a>
+
+  </section>
+  <!-- MAP SECTION YESSSSSSIR RUN IT UP -->
+  <div id="location">
+
+  </div>
+  <section class="location">
+    <h1 class="map-h1">Sacred Heart Track</h1>
+    <div class="map-responsive">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d605.6818747196527!2d-75.90859372323976!3d45.2622473441971!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdff4bd4196ad1%3A0xf9293df79e011f8b!2sSacred%20Heart%20Track%2C%20Stittsville%2C%20ON%20K2S%201X4!5e1!3m2!1sen!2sca!4v1598170046487!5m2!1sen!2sca"
+        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </section>
+
+  <!-- AYYY ITS THE FOOTER -->
+  <div id="footer2" tabindex="-1">
+
+  </div>
+
+  <section class="white-section" id="footer">
+
+
+    <a href="https://www.tiktok.com/@frickgang" target="_blank"><button type="button" class="btn btn-lg"><i class="fab footer-i fa-tiktok"></i></button></a>
+    <a href="https://www.instagram.com/p/B_Tk5yPFCj2/" target="_blank"><button type="button" class="btn btn-lg"><i class="fab footer-i fa-instagram"></i></button></a>
+    <a href="mailto:geniusbar123@icloud.com?subject=Information about Frick Gang Race"><button type="button" class="btn btn-lg"><i class="fas footer-i fa-envelope"></i></button></a>
+    <p class="footer-p"><i class="far fa-copyright"> </i> Copyright Frick Gang 2020</p>
+    <!-- <p class="footer-p footer-p2">Made in Drake's backyard</p> -->
+
+    <p class="navbar1"><a href="#title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="footer-arrow footer-arrow-svg">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" />
+        </svg></a> </p>
+
+
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#B0E0E6" fill-opacity="1"
+        d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+
+
+    <!-- <i class="fas footer-arrow fa-arrow-circle-up"></i> -->
+
+  </section>
+<div class="powderbluediv2"></div>
+  <!-- script for smooth scroll -->
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"> </script>
+  <script>
+    const scroll = new SmoothScroll('.navbar1 a[href*="#"]', {
+      speed: 800,
+      speedAsDuration: true
+    });
+  </script>
+  <script type="text/javascript" src="nav.js">
+
+  </script>
+  <!-- test scroll bar -->
+
+  <script>
+    $(document).ready(function() {
+      $('white-col').hover(function() {
+        $(this).prev().toggleClass('div-opacity');
+      });
+    });
+  </script>
+</body>
+
+</html>
