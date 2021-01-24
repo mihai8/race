@@ -274,19 +274,19 @@ ul {
   top: 50px;
 }
 
-.android {
+.lorem {
   color: #ff3c7f;
   text-decoration: none;
   position: relative;
   display: inline-block;
 }
 
-.android:hover {
+.lorem:hover {
   color: #ff3c7f;
   text-decoration: none;
 }
 
-.android::after {
+.lorem::after {
   content: '';
   /* display: block; */
   position: absolute;
@@ -301,7 +301,7 @@ ul {
 
 }
 
-.android:hover::after {
+.lorem:hover::after {
 transform: scaleX(1);
 transform-origin: left;
 }
