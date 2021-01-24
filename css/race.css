@@ -41,21 +41,6 @@
   z-index: -1;
 }
 
-/* fake divs */
-.vl {
-  border-left: 1px solid black;
-  height: 2000px;
-  position: absolute;
-  margin-left: 50%;
-  z-index: 100;
-}
-
-.blackdiv {
-  height: 1000px;
-  background-color: black;
-}
-
-
 @media screen and (max-width: 712px) {
   .powderbluediv2 {
     height: 25px;
@@ -691,12 +676,7 @@ z-index: 0;
 }
 
 
-
-
-
-
-
-/* KRABBY PATTY SECRET FORMULA TO MAKE NAVBAR SCROLL TO EXACT LOCATION FIGURED OUT 08/21/20 AT 1:54 AM EST */
+/* MAKE NAVBAR SCROLL TO EXACT LOCATION FIGURED OUT 08/21/20 AT 1:54 AM EST */
 #info2 {
   position: relative;
   bottom: 70px;
@@ -2057,11 +2037,5 @@ iframe {
     font-size: 23px;
   }
 }
-
-
-
-
-
-
 
 /* the end */
