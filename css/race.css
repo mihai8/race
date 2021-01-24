@@ -34,7 +34,7 @@
 }
 
 /* cover art */
-.frick {
+.coverart {
   position: absolute;
   bottom: 20000px;
   width: 10%;
@@ -1254,7 +1254,7 @@ em {
 }
 
 .footer-p::after {
-  content: "Made in Drake's backyard";
+  content: "Made with ❤ by Mihai";
   position: relative;
   display: block;
   margin-top: 1.5%;
